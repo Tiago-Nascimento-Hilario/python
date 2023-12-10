@@ -1,3 +1,5 @@
+# String são imutáveis, alterar necessário armazenar em uma nova variável
+
 cidade = 'Porto alegre'
 
 print(cidade.split())

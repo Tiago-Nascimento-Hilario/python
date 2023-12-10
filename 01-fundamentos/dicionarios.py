@@ -6,7 +6,7 @@ dicionario_pessoa = {
     'cidade': 'Porto Alegre'
     }
 
-# Outra maneira de cirar um dicionário 
+# Outra maneira de criar um dicionário 
 dicionario_pessoa2 = dict(nome = 'Lucia', idade = '35', cidade = 'Salvador')
 
 print(dicionario_pessoa.keys())

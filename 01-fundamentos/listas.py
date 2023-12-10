@@ -8,17 +8,19 @@
 # clear - limpa lista
 # sort - ordena uma lista em crescente
 
-lista = ['Tiago', 36, 'Porto alegre']
-lista_de_repeticao = ['Reppetindo 10 vezes'] * 9
 
-uniao_listas = [lista  + lista_de_repeticao]
-print(uniao_listas)
+# Código para ferificar produtos em uma lista
 
-print(lista[0])
-print(lista_de_repeticao)
+produtos = ['smartphone', 'mochila', 'noteboock']
+estoque = [10, 5, 1,]
 
-liste_de_objetos = ['smartphone', 'mochila', 'noteboock']
-print(liste_de_objetos)
+nome_produto = input('Insira nome do produto: ').lower()
+if nome_produto in produtos:
+    i = produtos.index(nome_produto)
+    quantitade_estoque = estoque[i]
+    print('Produto: {} Quantidade: {}'.format(nome_produto, quantitade_estoque))
+else:
+    print('{} não existe no estoque'.format(nome_produto).upper())
+    
 
-print(list(range(10,132)))
 
